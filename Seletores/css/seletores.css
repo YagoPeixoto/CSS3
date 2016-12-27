@@ -1,0 +1,36 @@
+/*seletor universal*/
+* {
+    color: darkorange;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*seletor tag*/
+h1 {
+    color: darkgreen;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: black;
+    text-align: start;
+    font-size: 20px;
+}
+
+/*seletor atributo*/
+input[name="nome"] {
+    height: 70px;
+    width: 300px;
+    background-color: beige;
+    border: double;
+
+}
+
+input[name="senha"] {
+    height: 70px;
+    width: 300px;
+    background-color: #f99;
+    border: solid;
+}
+
